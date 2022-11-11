@@ -1,207 +1,168 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  
-  
-  <title>Hello World | Hexo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>隐形守护者 | Sw1f7's world</title><meta name="author" content="Sw1f7"><meta name="copyright" content="Sw1f7"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. 隐形守护者">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
+<meta property="og:title" content="隐形守护者">
 <meta property="og:url" content="http://example.com/2022/11/11/hello-world/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
-<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Sw1f7&#39;s world">
+<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. 隐形守护者">
+<meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-11-11T03:34:07.297Z">
-<meta property="article:modified_time" content="2022-11-11T03:34:07.297Z">
-<meta property="article:author" content="John Doe">
-<meta name="twitter:card" content="summary">
+<meta property="article:modified_time" content="2022-11-11T06:23:04.539Z">
+<meta property="article:author" content="Sw1f7">
+<meta name="twitter:card" content="summary"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/2022/11/11/hello-world/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '隐形守护者',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2022-11-11 14:23:04'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
   
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
   
-  
-    <link rel="shortcut icon" href="/favicon.png">
-  
-  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
     
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
-
-  
-  
-<link rel="stylesheet" href="/css/style.css">
-
-  
-    
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
-
-  
-<meta name="generator" content="Hexo 6.3.0"></head>
-
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
-      </h1>
-      
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
         
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
-      </div>
-    </div>
-  </div>
-</header>
-
-      <div class="outer">
-        <section id="main"><article id="post-hello-world" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2022/11/11/hello-world/" class="article-date">
-  <time class="dt-published" datetime="2022-11-11T03:34:07.297Z" itemprop="datePublished">2022-11-11</time>
-</a>
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
     
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 class="p-name article-title" itemprop="headline name">
-      Hello World
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2022/11/11/hello-world/" data-id="clac1l54z0000l0qu8bg03i0d" data-title="Hello World" class="article-share-link">Share</a>
-      
-      
-      
-    </footer>
-  </div>
-  
-    
-  
-</article>
-
-
-</section>
-        
-          <aside id="sidebar">
-  
-    
-
-  
-    
-
-  
-    
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/11/">November 2022</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2022/11/11/hello-world/">Hello World</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  
-</aside>
-        
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      
-      &copy; 2022 John Doe<br>
-      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
-</footer>
-
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
-    
-
-
-<script src="/js/jquery-3.4.1.min.js"></script>
-
-
-
-  
-<script src="/fancybox/jquery.fancybox.min.js"></script>
-
-
-
-
-<script src="/js/script.js"></script>
-
-
-
-
-
-  </div>
-</body>
-</html>
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">1</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-heartbeat"></i><span> 清单</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/Gallery/"><i class="fa-fw fas fa-images"></i><span> 照片</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div><div class="menus_item"><a class="site-page" href="/darker"><span> highlight_theme</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Sw1f7's world</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-heartbeat"></i><span> 清单</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/Gallery/"><i class="fa-fw fas fa-images"></i><span> 照片</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div><div class="menus_item"><a class="site-page" href="/darker"><span> highlight_theme</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">隐形守护者</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-11-11T03:34:07.297Z" title="发表于 2022-11-11 11:34:07">2022-11-11</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-11-11T06:23:04.539Z" title="更新于 2022-11-11 14:23:04">2022-11-11</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="隐形守护者"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="隐形守护者"><a href="#隐形守护者" class="headerlink" title="隐形守护者"></a>隐形守护者</h2><h3 id="第一幕"><a href="#第一幕" class="headerlink" title="第一幕"></a>第一幕</h3><p>【张景行坐在背对楼梯的桌子上，抽烟，一只手在写着什么】<br>柳平襄：（从屋子里走出来，瞥⻅张景行桌上的译稿，露出欣喜的神色)你在写什么？你竟会外文？<br>张景行：（抬起头，面露狐疑之色）：是的，你竟也看得懂德文?<br>柳平襄：是吗！那太好了！【此时桂姨正巧从屋⻔口经过】<br>桂姨：德文？莫不是……！（神色一凛）他们在说些什么？难道与那些东西有关？<br>【她一个闪身躲入⻔后，窃听张景行和柳平襄之间的淡话，露出一丝含义莫测的微笑 】<br>柳平襄：（兴奋地）是这样的，很抱歉，但你能帮我一些忙吗？（兴冲冲地从房中抱出几本脏兮兮的德文原著，期待地看着张景行）<br>柳平襄：我母亲生前留下了几本德文原著，所以我略懂一点，但不能完全看懂上面的意思，你能看懂吗?<br>张景行：我也有工作要忙……（盯着柳平襄紧紧抱住的书籍，不忍心拒绝）算了，给我吧。<br>柳平襄：（喜出望外，不停道谢，把手里的纸包放在张景行的书桌上）这是一包黄油面包，请你收藏着。<br>【⻔后的桂姨手神经质地抠着裤缝，半张脸隐在暗中，有一股说不出的阴森之感】<br>桂姨：（轻声）有了，有了，真是踏破铁鞋无觅处 ，得来全不费功夫。<br>【桂姨先蹑手蹑脚离开】<br>张景行：（匆匆翻阅）这些书……（急匆匆地）我很好奇，你是从哪里得到这些原著的?国内从未有过这些书籍，这可是一笔精神上的巨大财富啊。.<br>柳平襄：（怀念和迷茫地望向远方，缓缓讲述）那是很久之前的事了， 都是我桂姨讲给我听的。从我记事起，我就没有⻅过我的父母，都是桂姨照顾我⻓大的，母亲只给我留下这些书和一个玉坠。<br>柳平襄（陷入回忆的，慢慢地说）：当时我母亲被关在阴暗的监牢里，桂姨假借探望之名从我母亲手中拿到了这些德文原著，她说这是母亲留给我的念想。<br>张景行（柔和的）：她还有说什么吗？<br>柳平襄（几欲落泪）：母亲只是说她无愧于组织，绝不后悔。她只是悲于无法亲眼见我长大，只好托桂姨照拂我。<br>张景行（停下笔，抬头看向柳平襄）：你恨你的母亲吗？<br>柳平襄（垂泪但却勾出一抹淡淡的笑）：当然不。（柳平襄抬头看向远方）母亲是为革命而牺牲，是为正义而牺牲，她在我心里永远是一个伟大的母亲（眼中泪水涟涟）我想念我娘…….<br>张景行：唉，生逢乱世，无人不悲……等等，你是说！（一瞬间的失态）咳咳，我是说（被他很快地掩饰过去，他不露声色地安慰柳平襄）节哀顺变。<br>张景行:你的玉坠能给我看一下吗?<br>柳平襄：（狐疑地看了一眼张景行）你要这个做什么？（仍是摘下玉坠交给了他)<br>张景行：（在阳光下转动着玉坠，突然瞪大了眼睛）等等（小声）这是余二姐的消息！（只⻅一排小字，似乎是一些⻚码（旁白或PPT表现））（低头思索片刻）它的转译方法……（像是猛然想起些什么）我知道了！<br>张景行:（焦急地）抱歉，失陪一下。（匆匆离去）</p>
+<h3 id="第二幕"><a href="#第二幕" class="headerlink" title="第二幕"></a>第二幕</h3><p>背景:人声鼎沸的闹市区，街边一个热闹的馄饨摊，张景行和一个神秘的黑衣人相背而坐<br>人物:张景行、麻雀</p>
+<p>【张景行坐在馄饨摊边，慢条丝理地吃着馄饨，却能清楚地看清眼神中的警惕和小心】<br>【背后坐着的两人悄声交淡着 】<br>路人A：最近这日子不太平啊，到处都喊着抓学生，闹得人心惶惶的。唉，也不知道这样的日子啥时候才到头<br>路人B：是啊是啊，这物价一涨再涨，再这样下去，我们迟早连米都没得吃<br>【这时街道另一侧传来一阵喧哗，两名警察正(凶神恶煞地）驱赶着群众，押着一个学生走过。年轻的学生，脚上套着锁链，伤口和污血已模糊了他的样貌，只有那一双眼睛还闪着光】<br>【行至闹市区，那学生也不知从哪里挤出了最后一丝能量】<br>学生：（高喊）同胞们，睁开眼看看，社会已经烂透了，革命啊，革命才能救国！（话还没说完，却被警察一拳打倒在地）<br>警察：（脸上浮现一丝残忍的笑容，又狠狠地踩上几脚）小兔崽子，毛都没长齐就知道叫什么革命?<br>警察：（警告性地看了看围上来的群众）你们看着（手中握枪，用枪指了指学生，冷笑一声）革命？这就是革命的下场，带走！<br>【群众害怕地往后退了退，让出了一条路来】<br>【不久闹市区又恢复了原来的模样，好似事情从来没有发生过】<br>张景行：（死死地握住手中的筷子，直到筷子被折断才缓过神来）他们怎么能够对自己的同胞下手……<br>张景行：（站起身来）老板，再给我双筷子<br>【一个流里流气的身影出现，晃晃悠悠地向坐着的女人调笑】<br>陌生人：哟，美人！<br>【他径直走向张景行背后的位置坐下】<br>陌生人（麻雀）：（扬声道）一碗鲜肉馄饨，多放辣椒，不加葱!<br>张景行：（身体猛地一颤，小声地）这个声音，是麻雀！（突然没头没脑地）上海天渐冷了</p>
+<p>麻雀：（一改刚才吊儿郎当的声音，伸手压低了帽沿，低声回应）十日内还有晴天。(对暗号) （快速但小声）景行同志，组织收到了你的情报并进行了地下调查，确定陈先生的牺牲是遭人出卖，组织内部确实出现了叛徒，据情报，是个中老年的女性，你现在有确定的人选了吗？<br>张景行：（表情一脸凝重）我不愿相信……但我有一些想法。</p>
+<p>麻雀：组织已经查明是你的房东太太桂姨。多年前陈先生惨死狱中你还记得吗？也有她在背后推波助澜<br>【柳平襄上，看见张景行准备打招呼，看见麻雀又迟疑】<br>张景行：居然……是真的</p>
+<p>麻雀：她将那基本德文书带出来并非是为了什么组织，而是向那边透露情报。现在，组织给你的下一个任务是周三前除掉她，维护党内的纯洁性。</p>
+<p>张景行：定不辱使命。</p>
+<p>麻雀：（吃完馄饨，将钱放在桌上）老板，钱放桌上了！</p>
+<p>老板：好嘞！</p>
+<p>麻雀：（轻声）保重</p>
+<p>【麻雀消失在了人海之中】<br>柳平襄：张景行？你怎么在这？刚刚那人，你竟同那个远近闻名的混混有私交？<br>张景行：不是……</p>
+<p>柳平襄：我听见你们在说桂姨，又说什么不辱使命，怎么，你们向对桂姨做什么！</p>
+<p>张景行：平襄，你听我解释……</p>
+<p>柳平襄：都说相由心生，我看你果然和你看起来一样不是什么好人！之前我还如此信任你，把我母亲的遗物交给你，我真是瞎了眼！我要回去同桂姨说，让你扫地出门，无家可归！</p>
+<p>张景行：平襄！<br>【柳平襄跑下】</p>
+<h3 id="第三幕"><a href="#第三幕" class="headerlink" title="第三幕"></a>第三幕</h3><p>【房东屋内】<br>【桂姨正戴着眼镜读报，昏暗的灯光照在她头顶，有种说不出的诡异。】<br>【张景行放轻脚步走上，桂姨敏锐地抬头】<br>桂姨：（镇定地）景行先生，不知有什么事？</p>
+<p>张景行：（语气冷静）桂姨，麻烦您给我找几盒洋火，我晚上好看书。<br>【桂姨转过身到柜子里寻找，张景行死死盯着她的背影，从怀中掏出手枪】<br>桂姨：（背对张景行做搜寻状，絮絮叨叨地）天色不早了，您自家也早点睡，我听柳平襄说您有次半夜才归家……</p>
+<p>【张景行正准备扣动扳机，听到柳平襄的名字后明显愣了一下，桂姨猝不及防地转身用一把黑洞洞的老式手抢指着他，二人举枪对峙】<br>桂姨：（嘴角勾起一抹笑，超乎常人地冷静，漫不经心地）景行先生，何必弄得这样为难呢？您的事我都听柳平襄说过。你们这些年轻人我见得多了，宁肯乔装成车夫地痞，十几年不见天日，何苦来？ </p>
+<p>张景行：（盯着眼前这个矮小的老妇，想到她手上沾着无数年轻生命的鲜血，无比愤恨，咬牙切齿地）你这个毒妇！你背叛了党和组织，害死了柳平襄的母亲，你还有脸自称她的亲人，你简直是个吃人的巫婆！（情绪激动、语言有力）<br>【此时柳平襄正好赶到房东门外，看到屋内的景象，不可置信地瞪大双眼。她背靠着房门，身体软瘫，手中的东西掉到了地上，引起了屋内二人的注意】<br>桂姨：柳平襄？<br>张景行：你怎么在这里？！<br>柳平襄：景行先生……桂姨……<br>桂姨：（冷笑）既然你来了……<br>【桂姨一把将柳平襄拽进屋内，用枪指着她的太阳穴，柳平襄发出一声尖叫】<br>桂姨：（一改从前那副和蔼的样子，面目狰狞可憎）柳平襄的母亲和你一样天真。我给过她机会，可是她非要为了所谓的信仰去死——连她的女儿都可以不管不顾。（眉毛竖起，声音尖利，充满怨恨道）为了所谓的革命，我儿子白白送命，我白白消耗了青春，我们又得到了什么？！（讥讽地）认清现实吧，年轻人，你们所谓的党（组织）连保护你们都做不到，你以为它能给你们带来什么呢？<br>【张景行打断桂姨的话】<br>张景行：（咬紧牙关）你住口！你这没有人性的老妖婆！收着你那自私卑鄙的小民思想！哪有革命不牺牲？你见到广大同胞生活在水深火热中吗？你见过我们在国际会议上受辱吗？（情绪激动，层层高昂）我和柳平襄的母亲，从没有人逼迫我们，我们是为了心中的理想，为了工农群众的幸福权利，为了全人类的解放，哪怕牺牲也在所不辞！（语气激昂）</p>
+<p>【柳平襄突然挣脱，将桂姨推开，眼含热泪，眼神中既有愤怒又有不解，双手颤抖握拳 】<br>柳平襄：我的母亲竟是被你害死的（声嘶力竭地冲桂姨大喊）你这个叛徒！！！小人！！！</p>
+<p>桂姨：（嘴角抽搐，冷笑一下，从牙缝间挤出几个字）你自找的。（举枪对着柳平襄并果断扣动扳机）<br>张景行：平襄！<br>【张景行以迅雷不及掩耳之势飞扑上前替柳平襄挡下子弹，并在一瞬间扣动扳机，子弹精准射向桂姨的心脏，桂姨直挺挺地倒下，双目圆睁，仿佛不可置信。三人均倒在地上。 】<br>【黑幕，枪声、警笛声、尖叫声四起】</p>
+<h3 id="第四幕"><a href="#第四幕" class="headerlink" title="第四幕"></a>第四幕</h3><p>【十五年前，傍晚，实验室内】<br>【周齐身穿白大褂，戴着眼镜与耳罩坐在机器前专心致志地工作，门外还有许多走来走去的工作人员】<br>【滴滴滴滴的警报声响起】<br>工作人员A：机器出故障了！危险！”<br>【工作人员们开始骚动，窃窃私语】<br>周齐：（取下耳罩，神色严峻）发生什么事了？<br>工作人员B：（急匆匆跑来，大声呼喊）组织命令，为减小损耗，关闭实验室门！<br> 周齐：（认真地听完，郑重地点了点头）听从组织命令！周齐愿意！（并敬礼）<br>【其他工作人员肃穆地站立敬礼，然后撤退】<br>【实验室门被关上】<br>周齐：（独自一人坐在实验室内，依旧尝试减少损耗）我再试一下，不到最后一刻绝不能放弃……<br>【滴滴声越来越响】<br>【嘭 爆炸声 烟雾起】</p>
+<p>【桂姨躺在地上，麻雀上】<br>麻雀：（悲哀地）你的儿子周齐从一开始便是甘愿的牺牲，桂姨，你以为你做的是为了你爱的儿子，但到头来，你做的一切却从来不是周齐希望看到的。<br>桂姨：（努力伸着的手一下子卸了力，大受打击的样子）不，不！组织从来没有善待过我们母子俩……（略带后悔的，嘶哑的）麻雀，你一定是来骗我的……阿齐，阿齐，你是一定能理解娘的吧……（哽咽，声音渐渐变小）<br>麻雀：（叹气）可悲又可怜的女人。<br>【麻雀看了一眼桂姨，转身扶了扶帽子，下场】</p>
+<h3 id="尾声"><a href="#尾声" class="headerlink" title="尾声"></a>尾声</h3><p>背景：三个月后</p>
+<p>【柳平襄正坐在高高的谷堆上看书，四月的阳光暖融融地洒下来，在她身上投下美好的光晕。柳平襄合上手中的书本，如获至宝地抱在胸前——正是张景行所翻译的的那本原著，眼中流露出半是向往半是怅惘。此时，麻雀爬上来坐到柳平襄身边】<br>麻雀：还是张景行那小子翻译的那本书啊，你都看了多少遍了（停顿，关心地探头）怎么啦？<br>柳平襄：我无法忘记他（摇摇头）我收到一封信（从怀中掏出信递给麻雀）</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="http://example.com">Sw1f7</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://example.com/2022/11/11/hello-world/">http://example.com/2022/11/11/hello-world/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://example.com" target="_blank">Sw1f7's world</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"></div><div class="post_share"><div class="social-share" data-image="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Sw1f7</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">1</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/derrick-Sw1f7" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:3222106915@qq.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%9A%90%E5%BD%A2%E5%AE%88%E6%8A%A4%E8%80%85"><span class="toc-number">1.</span> <span class="toc-text">隐形守护者</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AC%AC%E4%B8%80%E5%B9%95"><span class="toc-number">1.1.</span> <span class="toc-text">第一幕</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AC%AC%E4%BA%8C%E5%B9%95"><span class="toc-number">1.2.</span> <span class="toc-text">第二幕</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AC%AC%E4%B8%89%E5%B9%95"><span class="toc-number">1.3.</span> <span class="toc-text">第三幕</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AC%AC%E5%9B%9B%E5%B9%95"><span class="toc-number">1.4.</span> <span class="toc-text">第四幕</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B0%BE%E5%A3%B0"><span class="toc-number">1.5.</span> <span class="toc-text">尾声</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2022/11/11/hello-world/" title="隐形守护者"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="隐形守护者"/></a><div class="content"><a class="title" href="/2022/11/11/hello-world/" title="隐形守护者">隐形守护者</a><time datetime="2022-11-11T03:34:07.297Z" title="发表于 2022-11-11 11:34:07">2022-11-11</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2022 By Sw1f7</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>

@@ -7,7 +7,7 @@
   }
   
   /* 白天模式遮罩透明 */
-#footer::before {
+#page-footer::before {
   background: transparent !important;
   }
 #page-header::before {

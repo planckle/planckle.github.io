@@ -106,6 +106,25 @@
     
     
     <entry>
+      <title>ctf-web新手解题</title>
+      <link href="/2022/11/01/webctf1/"/>
+      <url>/2022/11/01/webctf1/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="XCTF-Cyberpeace-n3k0新手练习"><a href="#XCTF-Cyberpeace-n3k0新手练习" class="headerlink" title="XCTF Cyberpeace-n3k0新手练习"></a>XCTF Cyberpeace-n3k0新手练习</h2><p>本文章题目来自XCTF Cyberpeace-n3k0新手练习题库，解题过程为个人见解。</p><h3 id="view-source"><a href="#view-source" class="headerlink" title="view_source"></a>view_source</h3><p>首先打开页面发现右键失效了<br><img src="/img/view_source1.webp"><br>此时我们只需要按下F12，打开控制台，可以发现flag就在源代码里面。<br><img src="/img/view_source2.webp"></p><h3 id="robots"><a href="#robots" class="headerlink" title="robots"></a>robots</h3><p>robots.txt是搜索引擎中访问网站的时候要查看的第一个文件。<br>当一个搜索蜘蛛访问一个站点时，它会首先检查该站点根目录下是否存在robots.txt，如果存在，搜索机器人就会按照该文件中的内容来确定访问的范围；如果该文件不存在，所有的搜索蜘蛛将能够访问网站上所有没有被口令保护的页面。<br>因此我们可以直接联想到在路径后面加&#x2F;robots.txt<br><img src="/img/robots1.webp"><br>可以看到让我们禁止访问f1ag_1s_h3re.php<br>于是我们将路径后改成&#x2F;f1ag_1s_h3re.php<br><img src="/img/robots2.webp"><br>得到flag</p><h3 id="backup"><a href="#backup" class="headerlink" title="backup"></a>backup</h3><p>常见的备份文件后缀名有: .git .svn .swp .svn .~ .bak .bash_history<br>让我们查看备份文件<br><img src="/img/backup1.webp"><br>看到存在备份文件index.php.bak访问<br><img src="/img/backup2.webp"><br>得到flag<br><img src="/img/backup3.webp"><br>可用工具<br>扫目录脚本dirsearch<br>(项目地址：<a href="https://github.com/maurosoria/dirsearch(https://github.com/maurosoria/dirsearch)">https://github.com/maurosoria/dirsearch(https://github.com/maurosoria/dirsearch)</a>)</p><h3 id="cookie"><a href="#cookie" class="headerlink" title="cookie"></a>cookie</h3><p>访问网站可以看到提示让我们查看cookie<br><img src="/img/cookie1.webp"><br>于是我们可以打开cookie Manager提示在cookie.php<br><img src="/img/cookie3.webp"><br>于是我们可以访问&#x2F;cookie.php，提示让我们查看http响应<br><img src="/img/cookie2.webp"><br>打开burpsuite进行抓包<br><img src="/img/cookie4.webp"><br>查看返回包，得到flag<br><img src="/img/cookie5.webp"></p><h3 id="disabled-button"><a href="#disabled-button" class="headerlink" title="disabled_button"></a>disabled_button</h3><p>我们可以看到flag的按钮失效了<br>打开开发者工具，在查看器窗口审查元素，发现存在disabled&#x3D;””字段，<br><img src="/img/disabled_button1.webp"><br>将其删除，按下按钮，得到flag<br><img src="/img/disabled_button2.webp"></p><p>初学者，请大佬多多指教</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> ctf </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>emo文案</title>
       <link href="/2022/10/30/emo1/"/>
       <url>/2022/10/30/emo1/</url>

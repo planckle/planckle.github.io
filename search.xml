@@ -4,6 +4,44 @@
   
     
     <entry>
+      <title>Markdown数学公式</title>
+      <link href="/2022/11/16/Markdown/"/>
+      <url>/2022/11/16/Markdown/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>很多小伙伴发现自己在文字处理软件中没有办法打出规范的数学公式，这是因为键盘上没有足够多的字符，很多笔记软件（Typora，有道云）和文字软件（Words，WPS）中内置Markdown编辑器，可以按规定的语法转化为数学公式。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">插入公式的方法有两种：</span><br><span class="line">行内插入 :</span><br><span class="line">在公式两端各加上 &#x27;$&#x27;。</span><br><span class="line">单独成段 :</span><br><span class="line">需要加上在两端加上 $$ 。</span><br><span class="line"></span><br><span class="line">下面每个符号的代码在单独使用时都需要在首尾加上&quot;$&quot;。如果是成段使用，则在段首尾各加上&quot;$$&quot;，其余各符号不再需要额外加上&#x27;$&#x27;。</span><br></pre></td></tr></table></figure><h2 id="格式控制"><a href="#格式控制" class="headerlink" title="格式控制"></a>格式控制</h2><table><thead><tr><th>格式</th><th>代码</th><th>样例</th></tr></thead><tbody><tr><td>两个quad空格</td><td>a \qquad b</td><td><img src="https://math.jianshu.com/math?formula=a%20%5Cqquad%20b" alt="a \qquad b"></td></tr><tr><td>一个quad空格</td><td>a \quad b</td><td><img src="https://math.jianshu.com/math?formula=a%20%5Cquad%20b" alt="a \quad b"></td></tr><tr><td>大空格</td><td>a\ b</td><td><img src="https://math.jianshu.com/math?formula=a%5C%20b" alt="a\ b"></td></tr><tr><td>中等空格</td><td>a;b</td><td><img src="https://math.jianshu.com/math?formula=a%5C;b" alt="a\;b"></td></tr><tr><td>小空格</td><td>a,b</td><td><img src="https://math.jianshu.com/math?formula=a%5C,b" alt="a\,b"></td></tr><tr><td>没有空格</td><td><code>ab</code></td><td>$ab$</td></tr><tr><td>紧贴</td><td>a\!b</td><td>$a!b$</td></tr><tr><td>小小空格</td><td>a~b</td><td>$a~b$</td></tr><tr><td>换行</td><td>a\\b</td><td>$a\b$</td></tr></tbody></table><h2 id="上下标"><a href="#上下标" class="headerlink" title="上下标"></a>上下标</h2><table><thead><tr><th><strong>显示</strong></th><th><strong>代码</strong></th><th><strong>描述</strong></th></tr></thead><tbody><tr><td>$x^{2}$</td><td>x^{2}</td><td>上标，例如：x 的平方</td></tr><tr><td>$x_{i}$</td><td>x_{i}</td><td>下标，例如：第 i 个 x</td></tr></tbody></table><h2 id="括号和分隔符"><a href="#括号和分隔符" class="headerlink" title="括号和分隔符"></a>括号和分隔符</h2><table><thead><tr><th>显示</th><th>代码</th><th>显示</th><th>代码</th><th><strong>代码</strong>描述</th></tr></thead><tbody><tr><td>⟨</td><td>\langle</td><td>$\langle$</td><td>\rangle</td><td>尖括号</td></tr><tr><td>{</td><td>\{</td><td>}</td><td>\}</td><td>花括号</td></tr></tbody></table><h2 id="分数"><a href="#分数" class="headerlink" title="分数"></a>分数</h2><table><thead><tr><th>显示</th><th>代码</th></tr></thead><tbody><tr><td>$\frac{x}{y} $</td><td>\frac{x}{y}</td></tr><tr><td>$a+b+c+d+e+f \over g+h+i+j+k+l$</td><td>a+b+c+d+e+f \over g+h+i+j+k+l</td></tr></tbody></table><h2 id="开方"><a href="#开方" class="headerlink" title="开方"></a>开方</h2><table><thead><tr><th>显示</th><th>代码</th></tr></thead><tbody><tr><td>$\sqrt{2}$</td><td>\sqrt{2}</td></tr><tr><td>$\sqrt[n]{5}$</td><td>\sqrt[n]{5}</td></tr></tbody></table><h2 id="向量和箭头"><a href="#向量和箭头" class="headerlink" title="向量和箭头"></a>向量和箭头</h2><table><thead><tr><th>显示</th><th>代码</th><th>描述</th></tr></thead><tbody><tr><td>$\vec{x}$</td><td>\vec{x}</td><td>向量 x</td></tr><tr><td>$\overleftarrow{x}$</td><td>\overleftarrow{x}</td><td>x 上方左箭头</td></tr><tr><td>$\overrightarrow{x}$</td><td>\overrightarrow{x}</td><td>x 上方向右箭头</td></tr><tr><td>$\leftarrow$</td><td>\leftarrow</td><td>左箭头</td></tr><tr><td>$\rightarrow$</td><td>\rightarrow</td><td>右箭头</td></tr><tr><td>$\uparrow$</td><td>\uparrow</td><td>向上的箭头</td></tr><tr><td>$\downarrow$</td><td>\downarrow</td><td>向下的箭头</td></tr><tr><td>$\Leftarrow$</td><td>\Leftarrow</td><td></td></tr><tr><td>$\Rightarrow$</td><td>\Rightarrow</td><td></td></tr><tr><td>$\Uparrow$</td><td>\Uparrow</td><td></td></tr><tr><td>$\Downarrow$</td><td>\Downarrow</td><td></td></tr></tbody></table><h2 id="积分"><a href="#积分" class="headerlink" title="积分"></a>积分</h2><table><thead><tr><th>显示</th><th>代码</th><th>描述</th></tr></thead><tbody><tr><td>$$ \int_{0}^{1}{x^{3}}dx $$</td><td>\int_{0}^{1}{x^{3}}dx</td><td>积分号</td></tr></tbody></table><h2 id="极限"><a href="#极限" class="headerlink" title="极限"></a>极限</h2><table><thead><tr><th>显示</th><th>代码</th><th>描述</th></tr></thead><tbody><tr><td>$$ \lim_{x \to \infty} \frac{1}{n(n+1)} $$</td><td>\lim{变量 \to 表达式} 表达式</td><td>极限</td></tr></tbody></table><h2 id="累和累乘"><a href="#累和累乘" class="headerlink" title="累和累乘"></a>累和累乘</h2><table><thead><tr><th>显示</th><th>代码</th><th>描述</th></tr></thead><tbody><tr><td>$$ \sum_{i&#x3D;0}^{n} x_i $$</td><td>\sum_{下标表达式}^{上标表达式} {累加表达式}</td><td>累和</td></tr><tr><td>$\prod_{i&#x3D;0}^{n}$</td><td>\prod_{下标表达式}^{上标表达式} {累积表达式}</td><td>累积</td></tr></tbody></table><h2 id="希腊字母"><a href="#希腊字母" class="headerlink" title="希腊字母"></a>希腊字母</h2><p><a href="/img/aaa1.png"></a><br><a href="/img/aaa2.png"></a></p><h2 id="关系运算符"><a href="#关系运算符" class="headerlink" title="关系运算符"></a>关系运算符</h2><table><thead><tr><th>显示</th><th>代码</th></tr></thead><tbody><tr><td>$\pm$</td><td>\pm</td></tr><tr><td>$\times$</td><td>\times</td></tr><tr><td>$\div$</td><td>\div</td></tr><tr><td>$\mid$</td><td>\mid</td></tr><tr><td>$\nmid$</td><td>\nmid</td></tr><tr><td>$\cdot$</td><td>\cdot</td></tr><tr><td>$\circ$</td><td>\circ</td></tr><tr><td>$\ast$</td><td>\ast</td></tr><tr><td>$\bigodot$</td><td>\bigodot</td></tr><tr><td>$\bigotimes$</td><td>\bigotimes</td></tr><tr><td>$\bigoplus$</td><td>\bigoplus</td></tr><tr><td>$\leq$</td><td>\leq</td></tr><tr><td>$\geq$</td><td>\geq</td></tr><tr><td>$\neq$</td><td>\neq</td></tr><tr><td>$\approx$</td><td>\approx</td></tr><tr><td>$\equiv$</td><td>\equiv</td></tr><tr><td>$\sum$</td><td>\sum</td></tr><tr><td>$\prod$</td><td>\prod</td></tr><tr><td>$\coprod$</td><td>\coprod</td></tr><tr><td>$\backslash$</td><td>\backslash</td></tr></tbody></table><h2 id="集合运算"><a href="#集合运算" class="headerlink" title="集合运算"></a>集合运算</h2><table><thead><tr><th>显示</th><th>代码</th><th>描述</th></tr></thead><tbody><tr><td>∅</td><td>\emptyset</td><td>空集</td></tr><tr><td>∈</td><td>\in</td><td>属于</td></tr><tr><td>∈&#x2F;</td><td>\notin</td><td>不属于</td></tr><tr><td>⊂</td><td>\subset</td><td>真包含于</td></tr><tr><td>⊃</td><td>\supset</td><td>真包含</td></tr><tr><td>⊆</td><td>\subseteq</td><td>包含于</td></tr><tr><td>⊇</td><td>\supseteq</td><td>包含</td></tr><tr><td>∩</td><td>\cap</td><td>交集</td></tr><tr><td>∪</td><td>\cup</td><td>并集</td></tr><tr><td>∨</td><td>\vee</td><td></td></tr><tr><td>∧</td><td>\wedge</td><td></td></tr><tr><td>⊎</td><td>\uplus</td><td></td></tr><tr><td>⊤</td><td>\top</td><td></td></tr><tr><td>⊥</td><td>\bot</td><td></td></tr><tr><td>∁</td><td>\complement</td><td></td></tr></tbody></table><h2 id="对数运算"><a href="#对数运算" class="headerlink" title="对数运算"></a>对数运算</h2><table><thead><tr><th>显示</th><th>代码</th></tr></thead><tbody><tr><td>log</td><td>\log</td></tr><tr><td>lg</td><td>\lg</td></tr><tr><td>ln</td><td>\ln</td></tr></tbody></table><h2 id="三角运算"><a href="#三角运算" class="headerlink" title="三角运算"></a>三角运算</h2><table><thead><tr><th>显示</th><th>代码</th></tr></thead><tbody><tr><td>∽</td><td>\backsim</td></tr><tr><td>≅</td><td>\cong</td></tr><tr><td>∠<em>A</em></td><td>\angle A</td></tr><tr><td>sin</td><td>\sin</td></tr><tr><td>cos</td><td>\cos</td></tr><tr><td>tan</td><td>\tan</td></tr><tr><td>$\csc$</td><td>\csc</td></tr><tr><td><em>s<strong>e</strong>c</em></td><td>\sec</td></tr><tr><td>cot</td><td>\cot</td></tr></tbody></table><h2 id="微积分运算"><a href="#微积分运算" class="headerlink" title="微积分运算"></a>微积分运算</h2><table><thead><tr><th>显示</th><th>代码</th></tr></thead><tbody><tr><td>∫</td><td>\int</td></tr><tr><td>∬</td><td>\iint</td></tr><tr><td>∭</td><td>\iiint</td></tr><tr><td>∂</td><td>\partial</td></tr><tr><td>∮</td><td>\oint</td></tr><tr><td>′</td><td>\prime</td></tr><tr><td>lim</td><td>\lim</td></tr><tr><td>∞</td><td>\infty</td></tr><tr><td>∇</td><td>\nabla</td></tr></tbody></table><h2 id="逻辑运算"><a href="#逻辑运算" class="headerlink" title="逻辑运算"></a>逻辑运算</h2><table><thead><tr><th>显示</th><th>代码</th><th>描述</th></tr></thead><tbody><tr><td>∵</td><td>\because</td><td>因为</td></tr><tr><td>∴</td><td>\therefore</td><td>所以</td></tr><tr><td>¬</td><td>\neg</td><td>非</td></tr><tr><td>∀</td><td>\forall</td><td>任意</td></tr><tr><td>∃</td><td>\exists</td><td>存在</td></tr><tr><td>\⊂</td><td>\not\subset</td><td>不包含于</td></tr><tr><td>\&lt;</td><td>\not&lt;</td><td>不小于</td></tr><tr><td>\&gt;</td><td>\not&gt;</td><td>不大于</td></tr><tr><td>\&#x3D;</td><td>\not&#x3D;</td><td>不等于</td></tr></tbody></table><h2 id="戴帽运算"><a href="#戴帽运算" class="headerlink" title="戴帽运算"></a>戴帽运算</h2><table><thead><tr><th>显示</th><th>代码</th></tr></thead><tbody><tr><td>$\hat{xy}$</td><td>\hat{xy}</td></tr><tr><td>$\widehat{xyz}$</td><td>\widehat{xyz}</td></tr><tr><td>$\bar{y}$</td><td>\bar{y}</td></tr><tr><td>$\tilde{xy}$</td><td>\tilde{xy}</td></tr><tr><td>$\widetilde{xyz}$</td><td>\widetilde{xyz}</td></tr><tr><td>$\acute{y}$</td><td>\acute{y}</td></tr><tr><td>$\breve{y}$</td><td>\breve{y}</td></tr><tr><td>$\check{y}$</td><td>\check{y}</td></tr><tr><td>$\grave{y}$</td><td>\grave{y}</td></tr><tr><td>$\dot{x}$</td><td>\dot{x}</td></tr><tr><td>$\ddot{x}$</td><td>\ddot{x}</td></tr></tbody></table><h2 id="公式注释"><a href="#公式注释" class="headerlink" title="公式注释"></a>公式注释</h2><table><thead><tr><th>显示</th><th>代码</th></tr></thead><tbody><tr><td>$f(x)&#x3D; \begin{cases} 0,&amp; \text{if x is even} \ 1, &amp; \text{if x is odd} \end{cases}$</td><td>f(x)&#x3D; \begin{cases} 0,&amp; \text{if x is even} \ 1, &amp; \text{if x is odd} \end{cases}</td></tr></tbody></table><h2 id="公式序号"><a href="#公式序号" class="headerlink" title="公式序号"></a>公式序号</h2><table><thead><tr><th>显示</th><th>代码</th></tr></thead><tbody><tr><td>$y&#x3D;ax+b \tag{公式1}$</td><td>y&#x3D;ax+b \tag{公式1}</td></tr></tbody></table><h2 id="加粗"><a href="#加粗" class="headerlink" title="加粗"></a>加粗</h2><table><thead><tr><th>显示</th><th>代码</th><th>注释</th></tr></thead><tbody><tr><td>$\mathbf{0123456789}$</td><td>\mathbf{0123456789}</td><td><strong>数字加粗</strong></td></tr><tr><td>$\pmb{\alpha\beta}$</td><td>\pmb{\alpha\beta}</td><td><strong>希腊字母加粗</strong></td></tr><tr><td>$\boldsymbol{\alpha\beta}$</td><td>\boldsymbol{\alpha\beta}</td><td><strong>斜体加粗</strong></td></tr></tbody></table><h2 id="矩阵"><a href="#矩阵" class="headerlink" title="矩阵"></a>矩阵</h2><table><thead><tr><th>显示</th><th>代码</th><th>注释</th></tr></thead><tbody><tr><td>$$\begin{matrix}   1 &amp; 2 &amp; 3 \   4 &amp; 5 &amp; 6 \   7 &amp; 8 &amp; 9  \end{matrix}$$</td><td>\begin{matrix}   1 &amp; 2 &amp; 3 \   4 &amp; 5 &amp; 6 \   7 &amp; 8 &amp; 9  \end{matrix}</td><td>不带括号的矩阵</td></tr><tr><td>$$ \left{ \begin{matrix}   1 &amp; 2 &amp; 3 \   4 &amp; 5 &amp; 6 \   7 &amp; 8 &amp; 9  \end{matrix}  \right} \tag{2} $$</td><td>\left{ \begin{matrix}   1 &amp; 2 &amp; 3 \   4 &amp; 5 &amp; 6 \   7 &amp; 8 &amp; 9  \end{matrix}  \right} \tag{2}</td><td>带{ }的矩阵</td></tr><tr><td>$$ \left[ \begin{matrix}   1 &amp; 2 &amp; 3 \   4 &amp; 5 &amp; 6 \   7 &amp; 8 &amp; 9  \end{matrix}  \right] \tag{} $$</td><td>\left[ \begin{matrix}   1 &amp; 2 &amp; 3 \   4 &amp; 5 &amp; 6 \   7 &amp; 8 &amp; 9  \end{matrix}  \right] \tag{}</td><td>带[ ]的矩阵</td></tr></tbody></table><h2 id="乘积"><a href="#乘积" class="headerlink" title="乘积"></a>乘积</h2><table><thead><tr><th>显示</th><th>代码</th><th>注释</th></tr></thead><tbody><tr><td><em>a</em>×<em>b</em></td><td>a \times b</td><td>向量积</td></tr><tr><td><em>a</em>⋅<em>b</em></td><td>a \cdot b</td><td>数量积</td></tr><tr><td>⟨<em>a</em>,<em>b</em>⟩</td><td>\langle a , b \rangle</td><td>内积</td></tr><tr><td><em>a</em>⊗<em>b</em></td><td>a \otimes b</td><td>外积</td></tr></tbody></table><h2 id="实数R"><a href="#实数R" class="headerlink" title="实数R"></a>实数R</h2><table><thead><tr><th>显示</th><th>代码</th></tr></thead><tbody><tr><td>R</td><td>\mathbb{R}</td></tr></tbody></table>]]></content>
+      
+      
+      <categories>
+          
+          <category> 小工具 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>CTF工具推荐</title>
+      <link href="/2022/11/16/ctfr/"/>
+      <url>/2022/11/16/ctfr/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="010-Editor"><a href="#010-Editor" class="headerlink" title="010 Editor"></a>010 Editor</h2><p>[下载链接](&#x2F;file&#x2F;010 Editor v8.0.1 x86 x64 CN.zip)</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 小工具 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>web安全-网络基础学习</title>
       <link href="/2022/11/16/web(1)/"/>
       <url>/2022/11/16/web(1)/</url>
@@ -93,19 +131,6 @@
     
     
     <entry>
-      <title>test</title>
-      <link href="/2022/11/12/test/"/>
-      <url>/2022/11/12/test/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>qwer<br><img src="https://derrick-sw1f7.github.io/img/007.webp" alt="这是一张图片"></p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">testtest</span><br></pre></td></tr></table></figure>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>隐形守护者</title>
       <link href="/2022/11/11/firstblog/"/>
       <url>/2022/11/11/firstblog/</url>
@@ -187,6 +212,25 @@
       <url>/2022/10/30/emo1/</url>
       
         <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><ol><li><p>原来真的有人靠想象，可以等一个不存在的人一年又一年。</p></li><li><p>那不是我的月亮，但的确有一刻月光照在了我的身上。</p></li><li><p>放心睡吧，别担心，我没忘记你，照片也没删，只是把你收藏起来了。</p></li><li><p>若是重逢已是万幸，理当爱意埋于心底。</p></li><li><p>在这个快餐式恋爱的时代中，真的有人把喜欢藏了好久。</p></li><li><p>她走远了，正如那蒲公英，不知被风带到哪儿去了。</p></li><li><p>情不知所起，不知所踪，不知所终。</p></li><li><p>有时候盯着一个地方发呆好久好久，回过神了，才发现，其实自己看的不是风景。</p></li><li><p>深爱之人藏心不挂嘴，久爱之人在梦不在眼。</p></li><li><p>没有人不会离去，你也一样。</p></li><li><p>等到你音讯全无，我就用爱你的心去爱世间万物。</p></li><li><p>如果不出意外的话，我们的道路将不会再次交会。</p></li><li><p>你塞满了我的整个过去，却在我的未来永远缺席。</p></li><li><p>原来年少情深也可以走到相看两厌。</p></li><li><p>我为我所有不合时宜的出现，不知深浅的喜欢，不顾廉耻的纠缠，道歉。</p></li><li><p>原来ta会去官宣。</p></li><li><p>我也只能穿着校服活在你的青春里。</p></li><li><p>我开导了所有人，唯独解不开自己的心结。</p></li><li><p>她教会了我如何去爱，却没教会我怎样遗忘。</p></li><li><p>再见这词是期待还是遗憾。</p></li><li><p>后来与朋友谈笑风生间你的名字前多了一个从前。</p></li><li><p>怕你对我没了新鲜感，怕我对你有了依赖感。</p></li><li><p>开始什么都好，不开始最好。</p></li><li><p>以前喜欢一个人，后来喜欢一个人。</p></li><li><p>从忘记你的声音开始。</p></li><li><p>后来已经分不清是喜欢还是执念了。</p></li><li><p>下次见面不要躲开了，那样不像陌生人。</p></li><li><p>我来时既高冷又可爱，走时满是自卑和无奈。</p></li><li><p>富士山终究留不住欲的樱花，我的温柔也留不住你走的步伐。</p></li><li><p>从此我们跃入人海，各有各的风雨和灿烂。</p></li><li><p>终究是路远途疏，该散的人还是要散。</p></li><li><p>我所遇之人都胜你，所爱程度都不如你。</p></li><li><p>你连前奏都没有听完，你怎么知道是富士山下，还是爱情转移？有些事情不看到最后，哪里知道结果”<br>弦乐明显的是爱情转移，钢琴明显的是富士山下。我的意思是，有些事情不用等到最后，结果就在开头，只是你听不懂罢了</p></li><li><p>我把我整个的灵魂都给你，连同它的怪癖，耍小脾气，忽明忽暗，一千八百种坏毛病。它真讨厌，只有一点好，爱你。</p></li><li><p>从何时你也学会不要离群<br>从何时发觉没有同伴不行<br>从何时惋惜蝴蝶困于那桃源<br>飞多远有谁会对它操心</p></li><li><p>灰色的烟雾模糊了遥远的星座<br>眼前的一切失去了历史和名字<br>世界上只是一些影影绰绰的温柔<br>人还是原来的人，河还是原来的河</p></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 小emo </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>勾指起誓化学竞赛版</title>
+      <link href="/2021/08/27/luo/"/>
+      <url>/2021/08/27/luo/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>勾指起誓化学竞赛版填词来啦，想用严谨的化学知识表白吗？</p><p>本作填词：cynic_D<br>调校：神水Richard<br>PV：Derrick-Li</p><iframe src="//player.bilibili.com/player.html?aid=717635033&bvid=BV1vQ4y117Gv&cid=397572397&page=1"  height=520 width=800 scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>]]></content>
       
       
       <categories>

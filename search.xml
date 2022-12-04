@@ -4,6 +4,44 @@
   
     
     <entry>
+      <title>Ava Max</title>
+      <link href="/2022/12/04/Ava%20Max/"/>
+      <url>/2022/12/04/Ava%20Max/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="My-Head-amp-My-Heart"><a href="#My-Head-amp-My-Heart" class="headerlink" title="My Head &amp; My Heart"></a>My Head &amp; My Heart</h2><div align=center class="aspect-ratio">  <iframe src="https://txmov2.a.yximgs.com/upic/2022/12/04/18/BMjAyMjEyMDQxODM3MzdfMTgwNTg2MjUzNV85MDMzMjY4MTg3MV8wXzM=_b_B5470446f13f27b2248958ec22eb78a12.mp4" scrolling="no"     border="0"     frameborder="no"     framespacing="0"     high_quality=1    danmaku=1     allowfullscreen="true">     </iframe></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 娱乐 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>web安全-编程基础学习一</title>
+      <link href="/2022/11/30/web(2)/"/>
+      <url>/2022/11/30/web(2)/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="HTML标记语言"><a href="#HTML标记语言" class="headerlink" title="HTML标记语言"></a>HTML标记语言</h2><blockquote><p><a href="http://www.baidu.com/s?wd=123-">www.baidu.com/s?wd=123-</a> - - - 百度请求的URL地址栏中输入的地址</p></blockquote><blockquote><p>123 - - - - -统称为用户需求</p></blockquote><h3 id="后端的基本组成成分"><a href="#后端的基本组成成分" class="headerlink" title="后端的基本组成成分"></a>后端的基本组成成分</h3><blockquote><p>HTML- - - -后端的脚本语言<br>C类语言- - - - 前端<br>家- - - - 存储数据，队列存储一些缓存数据</p></blockquote><h4 id="存储桶-存放数据的容器"><a href="#存储桶-存放数据的容器" class="headerlink" title="存储桶- - - -存放数据的容器"></a>存储桶- - - -存放数据的容器</h4><blockquote><p>1、数据库（只存放一些字符串 文本类型的数据）<br>2、对象存储（存放一些非字符串的数据- - exe、<a href="https://www.aliyun.com/product/oss">阿里云oss</a>） </p></blockquote><p>127.0.0.1<br>DNS- - - 域名解析系统<br><a href="http://www.baidu.com/">www.baidu.com</a> - -域名 - -便于用户记住</p><p>URL - - - -格式：</p><blockquote><p>协议:&#x2F;&#x2F;ip[域名]:端口[默认配置为80]&#x2F;Resource_Path资源路径<br><a href="http://127.0.0.1/">http://127.0.0.1</a></p></blockquote><blockquote><p>HTML是一个标记语言，不能按照用户的需求进行展示。<br>PHP - - -完善HTML的缺陷，可以获取用户的需求（输入）</p></blockquote><blockquote><p>1、字符串String： <a href="http://127.0.0.1/">http://127.0.0.1</a><br>2、整数int：1<br>3、浮点数float：3.14<br>4、逻辑bool：true、false<br>5、数组array：<br>                     a&#x3D;[1,2,3,4,5]<br>                     a[0]<br>6、对象object：抽象的一个概念，人类：类 - -对象 讲师A - -实例</p></blockquote><h3 id="下面是一个简单的HTML5文档："><a href="#下面是一个简单的HTML5文档：" class="headerlink" title="下面是一个简单的HTML5文档："></a>下面是一个简单的HTML5文档：</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">title</span>&gt;</span>文档标题<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"> </span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">文档内容......</span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"> </span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习笔记 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>编程日记5</title>
       <link href="/2022/11/29/Programming5/"/>
       <url>/2022/11/29/Programming5/</url>
